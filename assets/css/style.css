@@ -1,5 +1,5 @@
 body {
-    padding-top: 70px; /* Ensure content does not overlap with fixed header */
+    padding-top: 100px; /* Ensure content does not overlap with fixed header */
   }
   
   .fixed-top {
@@ -12,5 +12,19 @@ body {
   
   .list-group-item {
     margin-bottom: 15px; /* Add space between list items */
+  }
+  
+  .volume-slider {
+    margin-top: 10px; /* Add some spacing for the volume slider */
+  }
+  
+  @media (max-width: 768px) {
+    .input-group {
+      flex-direction: column;
+    }
+  
+    .input-group .form-control {
+      margin-bottom: 10px;
+    }
   }
   
