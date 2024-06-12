@@ -1,0 +1,16 @@
+body {
+    padding-top: 70px; /* Ensure content does not overlap with fixed header */
+  }
+  
+  .fixed-top {
+    z-index: 1030; /* Ensure the header is always on top */
+  }
+  
+  audio {
+    width: 100%; /* Ensure audio controls take full width */
+  }
+  
+  .list-group-item {
+    margin-bottom: 15px; /* Add space between list items */
+  }
+  

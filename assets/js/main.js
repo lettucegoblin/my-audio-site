@@ -15,7 +15,6 @@ $.getJSON('/assets/audio/index.json', function(data) {
     idx = lunr(function () {
         this.ref('id');    // The reference field
         this.field('text'); // Field to index
-        this.field('speaker'); // Another field to index
 
         // Add data to the index
         data.forEach(function (doc) {
@@ -38,22 +37,25 @@ function displayResults(results) {
 
     results.forEach(function(result) {
         var doc = documents[result.ref]; // Look up the document in the stored data
-        var item = '<li>' +
-                   '<audio controls src="' + doc.audio + '"></audio>' +
-                   '<p>' + doc.text + ' (Speaker: ' + doc.speaker + ')</p>' +
-                   '<button onclick="favorite(\'' + doc.audio + '\')">Favorite</button>' +
+        var item = '<li class="list-group-item">' +
+                   '<audio controls class="w-100 mb-2" src="' + doc.audio + '"></audio>' +
+                   '<p>' + doc.text + '</p>' +
+                   '<button class="btn btn-outline-primary" onclick="toggleFavorite(\'' + doc.audio + '\')">Toggle Favorite</button>' +
                    '</li>';
         $results.append(item);
     });
 }
 
 // Function to handle favoriting of audio files
-function favorite(audio) {
+function toggleFavorite(audio) {
     var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    if (!favorites.includes(audio)) {
+    var index = favorites.indexOf(audio);
+    if (index === -1) {
         favorites.push(audio);
-        localStorage.setItem('favorites', JSON.stringify(favorites));
+    } else {
+        favorites.splice(index, 1);
     }
+    localStorage.setItem('favorites', JSON.stringify(favorites));
     displayFavorites();
 }
 
@@ -64,7 +66,7 @@ function displayFavorites() {
     $favorites.empty();
 
     favorites.forEach(function(audio) {
-        var item = '<li><audio controls src="' + audio + '"></audio></li>';
+        var item = '<li class="list-group-item"><audio controls class="w-100 mb-2" src="' + audio + '"></audio></li>';
         $favorites.append(item);
     });
 }
