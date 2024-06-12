@@ -67,7 +67,7 @@ function displayResults(results, target) {
 <li class="list-group-item">
   <p>${doc.text}</p>
   <div class="d-flex justify-content-between align-items-center">
-    <audio preload="none" controls class="w-100 mb-2" src="${doc.audio}"></audio>
+    <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${doc.audio}"></audio>
     <button class="btn btn-outline-primary ml-4" onclick="toggleFavorite('${doc.id}')"><i class="far fa-heart"></i></button>
     <button class="btn btn-outline-primary ml-4" onclick="download('${doc.audio}')"><i class="fas fa-download"></i></button>
   </div>
