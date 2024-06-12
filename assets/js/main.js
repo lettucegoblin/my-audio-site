@@ -4,6 +4,22 @@
 var idx;
 var documents = {};
 
+function nGramTokenizer(obj, metadata) {
+  var str = obj.toString().toLowerCase();
+  var nGrams = [];
+  var length = str.length;
+  var n = 3; // You can adjust 'n' based on how small you want the fragments to be
+
+  for (var i = 0; i <= length - n; i++) {
+    var gram = str.substring(i, i + n);
+    nGrams.push(gram);
+  }
+
+  return nGrams.map(function (gram) {
+    return new lunr.Token(gram, lunr.utils.clone(metadata));
+  });
+}
+
 $(document).ready(function () {
   // Load the data and create the index
   $.getJSON(baseUrl + "/assets/audio/index.json", function (data) {
@@ -12,8 +28,12 @@ $(document).ready(function () {
       documents[doc.id] = doc;
     });
 
+    
+
     // Initialize Lunr index
     idx = lunr(function () {
+      this.tokenizer = nGramTokenizer;
+      this.pipeline.remove(lunr.stopWordFilter);
       this.ref("id"); // The reference field
       this.field("text"); // Field to index
       // Add data to the index
@@ -24,11 +44,11 @@ $(document).ready(function () {
 
     // Check if a search parameter is present in the URL
     var queryParams = new URLSearchParams(window.location.search);
-    var searchQuery = queryParams.get("q");
-    if (searchQuery) {
+    var searchQuery = queryParams.get("q") || "";
+    //if (searchQuery) {
       $("#search-input").val(searchQuery);
       search(searchQuery);
-    }
+    //}
   });
 
   // Bind the search button click event
@@ -46,7 +66,7 @@ $(document).ready(function () {
 });
 
 function search(query) {
-  if (!query) return;
+  //if (!query) return;
   var results = idx.search(query); // Use Lunr to search the index
   displayResults(results, "#results"); // Function to display the results
 }
