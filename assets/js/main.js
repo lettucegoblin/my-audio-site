@@ -20,19 +20,41 @@ $.getJSON("/assets/audio/index.json", function (data) {
     data.forEach(function (doc) {
       this.add(doc);
     }, this);
-    setTimeout(function () {
-      // Display favorites on page load
-      displayFavorites();
-    }, 1000);
   });
+
+  // Display favorites on page load
+  displayFavorites();
 });
 
-// Search functionality triggered by button click
-$("#search-button").on("click", function () {
-  var query = $("#search-input").val(); // Get the value from the input
-  var results = idx.search(query); // Use Lunr to search the index
-  displayResults(results, "#results"); // Function to display the results
+let timeout = 0;
+// Search functionality triggered by button click, pressing Enter, or typing in the search box
+function search() {
+  if (timeout) {
+    clearTimeout(timeout);
+  }
+  timeout = setTimeout(function () {
+    var query = $("#search-input").val(); // Get the value from the input
+    var results = idx.search(query); // Use Lunr to search the index
+    displayResults(results, "#results"); // Function to display the results
+  }, 300);
+}
+
+$("#search-button").on("click", search);
+$("#search-input").on("keyup", function (event) {
+  if (event.key === "Enter" || event.keyCode === 13 || this.value.length > 0) {
+    search();
+  }
 });
+
+// Function to download an audio file
+function download(url) {
+  var a = document.createElement("a");
+  a.href = url;
+  a.download = url.split("/").pop();
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
 
 // Function to display search results
 function displayResults(results, target) {
@@ -41,31 +63,29 @@ function displayResults(results, target) {
 
   results.forEach(function (result) {
     var doc = documents[result.ref]; // Look up the document in the stored data
-    var item =
-      '<li class="list-group-item">' +
-      '<audio controls class="w-100 mb-2" src="' +
-      doc.audio +
-      '"></audio>' +
-      "<p>" +
-      doc.text +
-      "</p>" +
-      '<button class="btn btn-outline-primary" onclick="toggleFavorite(\'' +
-      doc.id +
-      "')\">Toggle Favorite</button>" +
-      "</li>";
+    var item = `
+<li class="list-group-item">
+  <p>${doc.text}</p>
+  <div class="d-flex justify-content-between align-items-center">
+    <audio preload="none" controls class="w-100 mb-2" src="${doc.audio}"></audio>
+    <button class="btn btn-outline-primary ml-4" onclick="toggleFavorite('${doc.id}')"><i class="far fa-heart"></i></button>
+    <button class="btn btn-outline-primary ml-4" onclick="download('${doc.audio}')"><i class="fas fa-download"></i></button>
+  </div>
+</li>`;
     $results.append(item);
   });
 
-  // Apply volume setting to all audio elements
+  // Apply volume setting to all audio elements and bind their volume change event
   applyVolume();
+  bindAudioElements();
 }
 
 // Function to handle favoriting of audio files
-function toggleFavorite(audio_id) {
+function toggleFavorite(audio) {
   var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-  var index = favorites.indexOf(audio_id);
+  var index = favorites.indexOf(audio);
   if (index === -1) {
-    favorites.push(audio_id);
+    favorites.push(audio);
   } else {
     favorites.splice(index, 1);
   }
@@ -90,12 +110,21 @@ $("#volume-control").on("input", function () {
 });
 
 function applyVolume() {
-  var volume = localStorage.getItem("volume") || 1;
+  var volume = localStorage.getItem("volume") || 0.15;
   $("#volume-control").val(volume);
   $("audio").each(function () {
     $(this).prop("volume", volume);
   });
 }
 
-// Call applyVolume on page load to set initial volume
+function bindAudioElements() {
+  $("audio").on("volumechange", function () {
+    var volume = this.volume;
+    localStorage.setItem("volume", volume);
+    $("#volume-control").val(volume);
+  });
+}
+
+// Call applyVolume and bindAudioElements on page load to set initial volume and bind events
 applyVolume();
+bindAudioElements();

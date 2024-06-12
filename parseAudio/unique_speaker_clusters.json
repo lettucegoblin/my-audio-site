@@ -1,0 +1,5016 @@
+{
+    "Speaker 1": [
+        {
+            "file": "AdventureSP_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.10221875
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.19096875
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.924
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.894
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 0.826
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 11.08
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 6.833
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 1.847
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 1.708
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 3.555
+        },
+        {
+            "file": "AdventureSP_006.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 4.755
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 0,
+            "segment_start": 0.06471875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.585
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.632
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 5.032
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 5.032
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 4.571
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 16.574
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 16.297
+        },
+        {
+            "file": "AdventureSP_006_Alt_01.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 9.88
+        },
+        {
+            "file": "AdventureSP_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 9.88
+        },
+        {
+            "file": "AdventureSP_007.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.632
+        },
+        {
+            "file": "AdventureSP_007.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.94
+        },
+        {
+            "file": "BridgePieces_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.709
+        },
+        {
+            "file": "BridgePieces_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 6.694
+        },
+        {
+            "file": "BridgePieces_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 6.74
+        },
+        {
+            "file": "BridgePieces_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.509
+        },
+        {
+            "file": "BridgePieces_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.232
+        },
+        {
+            "file": "BridgePieces_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "BridgePieces_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.463
+        },
+        {
+            "file": "BridgePieces_004.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.54
+        },
+        {
+            "file": "BridgePieces_004.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 8.91
+        },
+        {
+            "file": "BridgePieces_004.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 8.218
+        },
+        {
+            "file": "BridgePieces_004.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 6.833
+        },
+        {
+            "file": "BridgePieces_004.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 6.186
+        },
+        {
+            "file": "BridgePieces_004.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 8.218
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.66784375
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.647
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.69284375
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 3,
+            "segment_start": 2.61284375,
+            "segment_end": 4.047218750000001
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 4,
+            "segment_start": 4.941593750000001,
+            "segment_end": 9.326
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.0559687500000003
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 5.125
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 13.204
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 7.59096875
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 10,
+            "segment_start": 7.844093750000001,
+            "segment_end": 9.695
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 3.232
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 2.124
+        },
+        {
+            "file": "CavernChase_001.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 2.6297187500000003
+        },
+        {
+            "file": "CavernChase_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 12.696
+        },
+        {
+            "file": "CavernChase_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 6.51
+        },
+        {
+            "file": "CavernChase_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.786
+        },
+        {
+            "file": "CavernChase_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 0.5372187500000001
+        },
+        {
+            "file": "CavernChase_002.wav",
+            "segment_index": 4,
+            "segment_start": 1.3303437500000002,
+            "segment_end": 2.68034375
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.785
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.801
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0265937500000002
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 5.586
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 9.003
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 4.294
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 3.093
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.355
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 1.43159375
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 8.126
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 1.3134687500000002
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 17.451
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 5.771
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 5.309
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 17,
+            "segment_start": 0.09846875000000001,
+            "segment_end": 3.278
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 18,
+            "segment_start": 0.03096875,
+            "segment_end": 4.109
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 19,
+            "segment_start": 0.03096875,
+            "segment_end": 3.093
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 20,
+            "segment_start": 0.03096875,
+            "segment_end": 3.8953437500000003
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 21,
+            "segment_start": 2.5453437500000002,
+            "segment_end": 6.14
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 22,
+            "segment_start": 0.03096875,
+            "segment_end": 3.555
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 23,
+            "segment_start": 0.03096875,
+            "segment_end": 5.956
+        },
+        {
+            "file": "CCity_003.wav",
+            "segment_index": 24,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.74
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.217
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 3,
+            "segment_start": 1.95471875,
+            "segment_end": 3.96284375
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 4,
+            "segment_start": 4.13159375,
+            "segment_end": 24.01034375
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 5,
+            "segment_start": 24.63471875,
+            "segment_end": 28.566593750000003
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 3.97
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.5959687500000004
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 8,
+            "segment_start": 2.98409375,
+            "segment_end": 5.43096875
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 9,
+            "segment_start": 6.00471875,
+            "segment_end": 6.949718750000001
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 10,
+            "segment_start": 7.40534375,
+            "segment_end": 8.215343750000002
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 11,
+            "segment_start": 8.51909375,
+            "segment_end": 9.480968750000002
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 12,
+            "segment_start": 10.004093750000003,
+            "segment_end": 10.56096875
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 3.33846875
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 2.8153437500000003
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 15,
+            "segment_start": 3.2878437500000004,
+            "segment_end": 7.152218750000001
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 16,
+            "segment_start": 7.7428437500000005,
+            "segment_end": 11.77596875
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 17,
+            "segment_start": 12.231593750000002,
+            "segment_end": 13.294718750000001
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 18,
+            "segment_start": 13.817843750000002,
+            "segment_end": 19.77471875
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 19,
+            "segment_start": 0.03096875,
+            "segment_end": 7.802
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 20,
+            "segment_start": 0.03096875,
+            "segment_end": 6.279
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 21,
+            "segment_start": 0.13221875,
+            "segment_end": 1.3472187500000001
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 22,
+            "segment_start": 0.03096875,
+            "segment_end": 5.817
+        },
+        {
+            "file": "CCity_004.wav",
+            "segment_index": 23,
+            "segment_start": 0.03096875,
+            "segment_end": 6.787
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.754
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 7.756
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.416
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 1.893
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 1.24596875
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 8.541
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 4.755
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.355
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 4.155
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 5.679
+        },
+        {
+            "file": "CCity_005.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 2.862
+        },
+        {
+            "file": "CCity_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CCity_007.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.1234687500000002
+        },
+        {
+            "file": "CCity_007.wav",
+            "segment_index": 2,
+            "segment_start": 2.37659375,
+            "segment_end": 6.048
+        },
+        {
+            "file": "CCity_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CCity_011.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 8.772
+        },
+        {
+            "file": "CCity_012.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.7522187500000002
+        },
+        {
+            "file": "CCity_014.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.416
+        },
+        {
+            "file": "CCity_014.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.878
+        },
+        {
+            "file": "CCity_014.wav",
+            "segment_index": 2,
+            "segment_start": 0.06471875,
+            "segment_end": 1.985
+        },
+        {
+            "file": "CCity_014.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 11.265
+        },
+        {
+            "file": "CCity_014.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.308
+        },
+        {
+            "file": "CCity_017.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.8072187500000001
+        },
+        {
+            "file": "CCity_017.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.339
+        },
+        {
+            "file": "CCity_017.wav",
+            "segment_index": 2,
+            "segment_start": 0.13221875,
+            "segment_end": 2.493
+        },
+        {
+            "file": "CCity_017.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 6.279
+        },
+        {
+            "file": "CCity_018.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.279
+        },
+        {
+            "file": "CCity_018.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "CCity_018.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.124
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.754
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.2
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.22034375
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 1.477
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.64659375
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.216
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 1.1953437500000001
+        },
+        {
+            "file": "CollectFirewood_001.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.2078437500000003
+        },
+        {
+            "file": "CollectFirewood_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 11.265
+        },
+        {
+            "file": "CollectFirewood_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.0897187500000003
+        },
+        {
+            "file": "CollectFirewood_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 6.925
+        },
+        {
+            "file": "CollectFirewood_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.493
+        },
+        {
+            "file": "CollectFirewood_002.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.109
+        },
+        {
+            "file": "CollectFirewood_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.463
+        },
+        {
+            "file": "CollectFirewood_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.83659375
+        },
+        {
+            "file": "CollectFirewood_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.53284375
+        },
+        {
+            "file": "CollectFirewood_003.wav",
+            "segment_index": 3,
+            "segment_start": 2.19096875,
+            "segment_end": 5.632
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.92471875
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 2,
+            "segment_start": 5.2115937500000005,
+            "segment_end": 6.51
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 6.14
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 6.879
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 7.018
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 10.803
+        },
+        {
+            "file": "CollectFirewood_004.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 5.171
+        },
+        {
+            "file": "CollectFirewood_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "CollectFirewood_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 13.435
+        },
+        {
+            "file": "CollectFirewood_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.8615937500000004
+        },
+        {
+            "file": "CollectFirewood_008.wav",
+            "segment_index": 1,
+            "segment_start": 4.26659375,
+            "segment_end": 8.356
+        },
+        {
+            "file": "CollectFirewood_008.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 7.9790937500000005
+        },
+        {
+            "file": "CollectFirewood_008.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CollectFirewood_008.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.57471875
+        },
+        {
+            "file": "CutScene1_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.463
+        },
+        {
+            "file": "CutScene1_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.6340937500000001
+        },
+        {
+            "file": "CutScene1_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.216
+        },
+        {
+            "file": "CutScene1_003.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0434687500000002
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.4822187500000001
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 1.339
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.0897187500000003
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 1.26284375
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 6,
+            "segment_start": 0.14909375000000002,
+            "segment_end": 1.39784375
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0603437500000001
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 1.56659375
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 1.26284375
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 1.39784375
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 2.0222187500000004
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 1.00971875
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 1.6172187500000001
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 0.84096875
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 0.92534375
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0434687500000002
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 17,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0603437500000001
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 18,
+            "segment_start": 0.03096875,
+            "segment_end": 1.27971875
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 19,
+            "segment_start": 0.03096875,
+            "segment_end": 1.41471875
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.93784375
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 1,
+            "segment_start": 0.047843750000000004,
+            "segment_end": 2.00534375
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.0222187500000004
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 14.912
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 7.156
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 11.265
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 4.294
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 5.402
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 3.40596875
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 3.49034375
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 3.1697187500000004
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 4.247
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 2.95034375
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 4.155
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 5.54
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 1.339
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 17,
+            "segment_start": 0.03096875,
+            "segment_end": 1.062
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 18,
+            "segment_start": 0.03096875,
+            "segment_end": 1.4653437500000002
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 19,
+            "segment_start": 0.03096875,
+            "segment_end": 1.3134687500000002
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 20,
+            "segment_start": 0.03096875,
+            "segment_end": 1.431
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 21,
+            "segment_start": 0.03096875,
+            "segment_end": 1.431
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 22,
+            "segment_start": 0.03096875,
+            "segment_end": 1.477
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 23,
+            "segment_start": 0.03096875,
+            "segment_end": 1.51596875
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 24,
+            "segment_start": 0.03096875,
+            "segment_end": 1.293
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 25,
+            "segment_start": 0.03096875,
+            "segment_end": 1.339
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 26,
+            "segment_start": 0.03096875,
+            "segment_end": 1.662
+        },
+        {
+            "file": "CutScene1_013.wav",
+            "segment_index": 27,
+            "segment_start": 0.03096875,
+            "segment_end": 2.585
+        },
+        {
+            "file": "CutScene1_016.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.85784375
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.063
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.524
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.262
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 5.171
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 1.24596875
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 0.90846875
+        },
+        {
+            "file": "Cutscene_11_006.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 1.51596875
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0772187500000001
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 0.90846875
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.00971875
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 0.785
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 1.431
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 1.339
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 0.50346875
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 1.108
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 1.847
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 0.831
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 1.7690937500000001
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 3.278
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 0.831
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 2.262
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 1.154
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 15,
+            "segment_start": 0.25034375000000003,
+            "segment_end": 1.847
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 17,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 18,
+            "segment_start": 0.03096875,
+            "segment_end": 3.139
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 19,
+            "segment_start": 0.03096875,
+            "segment_end": 5.402
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 20,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 21,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 22,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 23,
+            "segment_start": 0.03096875,
+            "segment_end": 4.063
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 24,
+            "segment_start": 0.03096875,
+            "segment_end": 3.0853437500000003
+        },
+        {
+            "file": "Cutscene_11_008.wav",
+            "segment_index": 25,
+            "segment_start": 0.03096875,
+            "segment_end": 2.632
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.893
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 7.156
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.693
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 9.834
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 1.708
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 1.431
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.17
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 2.17
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 3.00096875
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 2.6634687500000003
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 3.52409375
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 8.033
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 6.51
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 6.879
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 7.295
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 5.464718750000001
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 17,
+            "segment_start": 0.03096875,
+            "segment_end": 8.356
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 18,
+            "segment_start": 0.03096875,
+            "segment_end": 12.004
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 19,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 20,
+            "segment_start": 0.03096875,
+            "segment_end": 3.278
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 21,
+            "segment_start": 0.03096875,
+            "segment_end": 4.34
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 22,
+            "segment_start": 0.03096875,
+            "segment_end": 2.078
+        },
+        {
+            "file": "DecCastle_001.wav",
+            "segment_index": 23,
+            "segment_start": 0.03096875,
+            "segment_end": 5.863
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.093
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 12.373
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 6.279
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 17.913
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 6.51
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 4.017
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 3.33846875
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 3.30471875
+        },
+        {
+            "file": "DecCastle_002.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 0.877
+        },
+        {
+            "file": "DecCastle_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.6722187500000001,
+            "segment_end": 3.416
+        },
+        {
+            "file": "DecCastle_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.21659375000000003,
+            "segment_end": 2.22471875
+        },
+        {
+            "file": "DecCastle_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "DecCastle_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.3934687500000003
+        },
+        {
+            "file": "DecCastle_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.97
+        },
+        {
+            "file": "DecCastle_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.139
+        },
+        {
+            "file": "DecCastle_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 4.386
+        },
+        {
+            "file": "DecCastle_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.155
+        },
+        {
+            "file": "DecCastle_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 3.97
+        },
+        {
+            "file": "DecCastle_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.294
+        },
+        {
+            "file": "DecCastle_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.447
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.8872187500000002
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.16534375
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.063
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.001
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 3.278
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 5.54
+        },
+        {
+            "file": "DecCastle_009.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "DodgingGriffin_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.0515937500000003
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.679
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.37
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.509
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 4.063
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.416
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 1.985
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "DodgingGriffin_002.wav",
+            "segment_index": 8,
+            "segment_start": 0.08159375,
+            "segment_end": 2.6634687500000003
+        },
+        {
+            "file": "DodgingGriffin_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.294
+        }
+    ],
+    "Speaker 0": [
+        {
+            "file": "AdventureSP_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.924
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 10.249
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 9.511
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 9.187
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 5.817
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 5.599
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 6.094
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 3.87846875
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 7.664
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 3.1359687500000004
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 1.8703437500000002
+        },
+        {
+            "file": "AdventureSP_005.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 2.355
+        },
+        {
+            "file": "BridgePieces_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.294
+        },
+        {
+            "file": "BridgePieces_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.40596875
+        },
+        {
+            "file": "BridgePieces_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.40596875
+        },
+        {
+            "file": "CavernChase_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.34
+        },
+        {
+            "file": "CCity_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.16159375
+        },
+        {
+            "file": "CCity_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 18.052
+        },
+        {
+            "file": "CCity_001_Alt_01.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.571
+        },
+        {
+            "file": "CCity_001_Alt_01.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.4778437500000003
+        },
+        {
+            "file": "CCity_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.801
+        },
+        {
+            "file": "CCity_002_Alt_01.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.6890937500000001
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.448
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 5.00909375
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 3,
+            "segment_start": 5.75159375,
+            "segment_end": 10.388
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 9.695
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 0.877
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 10.203
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 4.247
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 2.86596875
+        },
+        {
+            "file": "CCity_006.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 3.924
+        },
+        {
+            "file": "CCity_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.2
+        },
+        {
+            "file": "CCity_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.279
+        },
+        {
+            "file": "CCity_013.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.862
+        },
+        {
+            "file": "CCity_013.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 6.694
+        },
+        {
+            "file": "CCity_013.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.308
+        },
+        {
+            "file": "CCity_013.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.093
+        },
+        {
+            "file": "CCity_013.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0603437500000001
+        },
+        {
+            "file": "CCity_015.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "CCity_016.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "CCity_016_Alt_01.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.70596875
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.03034375
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 1,
+            "segment_start": 4.2497187499999995,
+            "segment_end": 5.263
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 7.295
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.37
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.709
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.17
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 7.472843750000001
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CCity_019.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 3.03471875
+        },
+        {
+            "file": "CollectFirewood_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.001
+        },
+        {
+            "file": "CollectFirewood_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.863
+        },
+        {
+            "file": "CollectFirewood_014.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 8.541
+        },
+        {
+            "file": "CollectFirewood_018.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.86596875
+        },
+        {
+            "file": "CutScene1B_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.109
+        },
+        {
+            "file": "CutScene1B_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 8.218
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.08159375,
+            "segment_end": 3.555
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.71409375
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 4.247
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.308
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 1.477
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 3.463
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 3.509
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 3.001
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 4.294
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 8.633
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 3.0515937500000003
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 2.493
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "CutScene1B_002.wav",
+            "segment_index": 17,
+            "segment_start": 0.03096875,
+            "segment_end": 8.172
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.047843750000000004,
+            "segment_end": 3.878
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.893
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.401
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 11.727
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.34
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 10.45971875
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 6,
+            "segment_start": 10.94909375,
+            "segment_end": 11.505968750000001
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.401
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 6.371
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.72659375
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 7.202
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 8.726
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 1.801
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 3.324
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 3.093
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 5.448
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 2.909
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 3.416
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 5.48159375
+        },
+        {
+            "file": "CutScene1_002.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 9.04221875
+        },
+        {
+            "file": "CutScene1_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.4822187500000001
+        },
+        {
+            "file": "CutScene1_014.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0434687500000002
+        },
+        {
+            "file": "CutScene6B_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.43596875,
+            "segment_end": 1.293
+        },
+        {
+            "file": "CutScene6B_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.339
+        },
+        {
+            "file": "CutScene6B_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.431
+        },
+        {
+            "file": "CutScene6B_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.2
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.44846875
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.154
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.385
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 1.2
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.093
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.401
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "CutScene6B_004.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 8.079
+        },
+        {
+            "file": "Cutscene_1_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.002
+        },
+        {
+            "file": "Cutscene_1_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 7.156
+        },
+        {
+            "file": "Cutscene_1_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.463
+        },
+        {
+            "file": "Cutscene_1_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CutScene_2A_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.3890937500000002
+        },
+        {
+            "file": "CutScene_2A_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.647
+        },
+        {
+            "file": "CutScene_2A_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.64221875
+        },
+        {
+            "file": "CutScene_2A_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.9290937500000003
+        },
+        {
+            "file": "CutScene_2A_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "CutScene_3A_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.755
+        },
+        {
+            "file": "CutScene_3A_002_B.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.57
+        },
+        {
+            "file": "CutScene_3_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.801
+        },
+        {
+            "file": "CutScene_4A_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.16596875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "CutScene_4A_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.447
+        },
+        {
+            "file": "CutScene_4A_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.74
+        },
+        {
+            "file": "CutScene_4A_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 6.14
+        },
+        {
+            "file": "CutScene_4A_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.816
+        },
+        {
+            "file": "CutScene_4A_001.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 3.232
+        },
+        {
+            "file": "CutScene_4A_001.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 6.648
+        },
+        {
+            "file": "CutScene_4B_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.07284375
+        },
+        {
+            "file": "CutScene_4B_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.679
+        },
+        {
+            "file": "CutScene_4B_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CutScene_4B_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.355
+        },
+        {
+            "file": "CutScene_4B_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.571
+        },
+        {
+            "file": "CutScene_4B_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.263
+        },
+        {
+            "file": "CutScene_4B_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 5.448
+        },
+        {
+            "file": "CutScene_4B_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.787
+        },
+        {
+            "file": "CutScene_4B_004.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 9.511
+        },
+        {
+            "file": "CutScene_4B_004.wav",
+            "segment_index": 2,
+            "segment_start": 0.26721875,
+            "segment_end": 7.71
+        },
+        {
+            "file": "CutScene_4B_004.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 6.925
+        },
+        {
+            "file": "CutScene_4B_004.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.27096875
+        },
+        {
+            "file": "CutScene_4B_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.247
+        },
+        {
+            "file": "CutScene_4B_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.585
+        },
+        {
+            "file": "CutScene_4B_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.324
+        },
+        {
+            "file": "CutScene_4B_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.25846875
+        },
+        {
+            "file": "CutScene_4B_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 1.6340937500000001
+        },
+        {
+            "file": "CutScene_4B_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 1.2
+        },
+        {
+            "file": "CutScene_4B_006.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 2.401
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 15.974
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 8.541
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.99659375
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 4.755
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.77
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 0.8072187500000001
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 6,
+            "segment_start": 1.3472187500000001,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 7,
+            "segment_start": 1.44846875,
+            "segment_end": 2.862
+        },
+        {
+            "file": "CutScene_4D_002.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 1.893
+        },
+        {
+            "file": "CutScene_4D_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 17.313
+        },
+        {
+            "file": "CutScene_4D_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.88284375
+        },
+        {
+            "file": "CutScene_4D_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.709
+        },
+        {
+            "file": "CutScene_4_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CutScene_4_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.463
+        },
+        {
+            "file": "CutScene_4_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.07284375
+        },
+        {
+            "file": "CutScene_4_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.32596875
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.216
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.386
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.7097187500000004
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 9.970343750000001
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.493
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0772187500000001
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 7,
+            "segment_start": 1.43159375,
+            "segment_end": 3.22034375
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 3.2878437500000004
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 3.278
+        },
+        {
+            "file": "CutScene_5A_001.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 1.939
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.25846875
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 6.279
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 9.834
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 0.87471875
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 3.001
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 6.094
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 4.801
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 5.771
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 1.893
+        },
+        {
+            "file": "CutScene_5A_003.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 4.801
+        },
+        {
+            "file": "CutScene_5A_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 12.096
+        },
+        {
+            "file": "CutScene_5B_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.833
+        },
+        {
+            "file": "CutScene_5B_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.648
+        },
+        {
+            "file": "CutScene_5C_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.41471875
+        },
+        {
+            "file": "CutScene_5D_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.985
+        },
+        {
+            "file": "CutScene_5D_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.878
+        },
+        {
+            "file": "CutScene_5D_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.77
+        },
+        {
+            "file": "CutScene_5D_003.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.355
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.401
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.708
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.754
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 10.295
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.5959687500000004
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 5.263
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 4.247
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "CutScene_5E_001.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 3.924
+        },
+        {
+            "file": "CutScene_5F_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.862
+        },
+        {
+            "file": "CutScene_5F_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.017
+        },
+        {
+            "file": "CutScene_5F_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 8.46846875
+        },
+        {
+            "file": "CutScene_5F_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 5.48159375
+        },
+        {
+            "file": "CutScene_5F_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.79034375,
+            "segment_end": 2.83221875
+        },
+        {
+            "file": "CutScene_5G_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.385
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.063
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.171
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 2,
+            "segment_start": 0.5372187500000001,
+            "segment_end": 6.14
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.816
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.647
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.216
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 8.864
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 5.956
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 6.325
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 4.97534375
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 3.693
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 5.309
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 7.295
+        },
+        {
+            "file": "CutScene_5G_005.wav",
+            "segment_index": 13,
+            "segment_start": 0.79034375,
+            "segment_end": 3.001
+        },
+        {
+            "file": "CutScene_5H_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.001
+        },
+        {
+            "file": "CutScene_5I_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.6634687500000003
+        },
+        {
+            "file": "CutScene_5I_004.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.001
+        },
+        {
+            "file": "CutScene_5I_004.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.83221875
+        },
+        {
+            "file": "CutScene_5I_004.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.555
+        },
+        {
+            "file": "CutScene_5I_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.509
+        },
+        {
+            "file": "CutScene_5I_005.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.647
+        },
+        {
+            "file": "CutScene_5I_005.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 0.877
+        },
+        {
+            "file": "CutScene_5I_005.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 5.725
+        },
+        {
+            "file": "CutScene_5_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 7.71
+        },
+        {
+            "file": "CutScene_6A_001.wav",
+            "segment_index": 0,
+            "segment_start": 2.68034375,
+            "segment_end": 6.17346875
+        },
+        {
+            "file": "CutScene_6A_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.863
+        },
+        {
+            "file": "CutScene_6A_002.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.139
+        },
+        {
+            "file": "CutScene_6A_002.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CutScene_6A_002.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.909
+        },
+        {
+            "file": "CutScene_6A_002.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 5.909
+        },
+        {
+            "file": "CutScene_6A_002.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 4.848
+        },
+        {
+            "file": "CutScene_6A_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CutScene_6A_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.877
+        },
+        {
+            "file": "CutScene_6A_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 12.788
+        },
+        {
+            "file": "CutScene_6A_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 10.711
+        },
+        {
+            "file": "CutScene_6A_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 5.863
+        },
+        {
+            "file": "CutScene_6A_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "CutScene_6A_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 5.309
+        },
+        {
+            "file": "CutScene_6C_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.72284375
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.11534375000000001,
+            "segment_end": 3.72659375
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 7.572
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 8.957
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.00096875
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.093
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 3.57471875
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 2.25846875
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 1.51596875
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 1.98846875
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 1.662
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 2.44409375
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 2.5115937500000003
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 5.355
+        },
+        {
+            "file": "CutScene_6C_009.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 5.125
+        },
+        {
+            "file": "CutScene_6_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0603437500000001
+        },
+        {
+            "file": "CutScene_6_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.7353437500000002
+        },
+        {
+            "file": "CutScene_6_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 2.862
+        },
+        {
+            "file": "CutScene_6_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.816
+        },
+        {
+            "file": "CutScene_6_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 1.431
+        },
+        {
+            "file": "CutScene_7A_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.601
+        },
+        {
+            "file": "CutScene_7A_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.601
+        },
+        {
+            "file": "CutScene_7A_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 6.833
+        },
+        {
+            "file": "CutScene_7A_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "CutScene_7A_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.509
+        },
+        {
+            "file": "CutScene_7A_008.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.216
+        },
+        {
+            "file": "CutScene_7A_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 8.864
+        },
+        {
+            "file": "CutScene_7A_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.72659375
+        },
+        {
+            "file": "CutScene_7_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.109
+        },
+        {
+            "file": "CutScene_7_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.13221875,
+            "segment_end": 3.2034687500000003
+        },
+        {
+            "file": "CutScene_7_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 5.679
+        },
+        {
+            "file": "CutScene_7_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 7.248
+        },
+        {
+            "file": "CutScene_8_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 9.049
+        },
+        {
+            "file": "CutScene_8_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 13.296
+        },
+        {
+            "file": "CutScene_8_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.03471875
+        },
+        {
+            "file": "CutScene_8_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 10.157
+        },
+        {
+            "file": "CutScene_8_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 6.233
+        },
+        {
+            "file": "CutScene_9A_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.8278437500000004
+        },
+        {
+            "file": "CutScene_9A_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 0.97
+        },
+        {
+            "file": "CutScene_9A_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 0.9590937500000001
+        },
+        {
+            "file": "CutScene_9A_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 1.893
+        },
+        {
+            "file": "CutScene_9A_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 1.016
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.77
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 7.9790937500000005
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 4.155
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 4.063
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 3.2878437500000004
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 3.324
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 3.37
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 13.25
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 7.849
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 7.607843750000001
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 10.388
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 7.06784375
+        },
+        {
+            "file": "CutScene_9B_001.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 14.312
+        },
+        {
+            "file": "CutScene_9C_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.66784375
+        },
+        {
+            "file": "CutScene_9C_004.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.108
+        },
+        {
+            "file": "CutScene_9C_004.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.00971875
+        },
+        {
+            "file": "CutScene_9C_004.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 0.923
+        },
+        {
+            "file": "CutScene_9C_004.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0603437500000001
+        },
+        {
+            "file": "CutScene_9C_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.293
+        },
+        {
+            "file": "CutScene_9C_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.247
+        },
+        {
+            "file": "CutScene_9C_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 1.293
+        },
+        {
+            "file": "CutScene_9C_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.65534375,
+            "segment_end": 1.1953437500000001
+        },
+        {
+            "file": "CutScene_9C_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "CutScene_9C_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 2.124
+        },
+        {
+            "file": "CutScene_9C_006.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 13.019
+        },
+        {
+            "file": "CutScene_9_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.90846875
+        },
+        {
+            "file": "CutScene_9_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "CutScene_9_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.416
+        },
+        {
+            "file": "DecCastle_011.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 10.203
+        },
+        {
+            "file": "DecCastle_012.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "DecCastle_013.wav",
+            "segment_index": 0,
+            "segment_start": 0.08159375,
+            "segment_end": 3.093
+        },
+        {
+            "file": "DecCastle_018.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "DodgingGriffin_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.771
+        },
+        {
+            "file": "DodgingGriffin_006.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 5.679
+        },
+        {
+            "file": "DodgingGriffin_006.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.06846875
+        },
+        {
+            "file": "DodgingGriffin_006.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "DodgingGriffin_006.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "DodgingGriffin_006.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 1.801
+        }
+    ],
+    "Speaker 3": [
+        {
+            "file": "AdventureSP_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.909
+        },
+        {
+            "file": "AdventureSP_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.11534375000000001,
+            "segment_end": 2.401
+        },
+        {
+            "file": "Bell Church -wrong stone.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.109
+        },
+        {
+            "file": "Bell Church -wrong stone.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.109
+        },
+        {
+            "file": "Bell Church -wrong stone.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.49034375
+        },
+        {
+            "file": "BridgePieces_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.555
+        },
+        {
+            "file": "BridgePieces_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.68471875
+        },
+        {
+            "file": "BridgePieces_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.925
+        },
+        {
+            "file": "Cat03.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.816
+        },
+        {
+            "file": "CavernChase_003.wav",
+            "segment_index": 0,
+            "segment_start": 4.283468750000001,
+            "segment_end": 17.59
+        },
+        {
+            "file": "CavernChase_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.216
+        },
+        {
+            "file": "CavernChase_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.3134687500000002
+        },
+        {
+            "file": "CavernChase_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.74
+        },
+        {
+            "file": "CavernChase_009.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.663
+        },
+        {
+            "file": "CavernChase_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.339
+        },
+        {
+            "file": "CollectFirewood_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.74
+        },
+        {
+            "file": "CollectFirewood_011.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.724
+        },
+        {
+            "file": "CollectFirewood_012.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 16.205
+        },
+        {
+            "file": "CollectFirewood_015.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.41034375
+        },
+        {
+            "file": "CollectFirewood_016.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.7815937500000003
+        },
+        {
+            "file": "CollectFirewood_016.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.416
+        },
+        {
+            "file": "CollectFirewood_017.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 7.248
+        },
+        {
+            "file": "CutScene1B_003.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 4.848
+        },
+        {
+            "file": "CutScene1B_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.725
+        },
+        {
+            "file": "CutScene1B_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.879
+        },
+        {
+            "file": "CutScene1_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.52846875
+        },
+        {
+            "file": "CutScene1_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.12784375
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.9422187500000001
+        },
+        {
+            "file": "CutScene1_005.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.43159375
+        },
+        {
+            "file": "CutScene1_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.524
+        },
+        {
+            "file": "CutScene1_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.2122187500000001
+        },
+        {
+            "file": "CutScene1_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.3303437500000002
+        },
+        {
+            "file": "CutScene1_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.4822187500000001
+        },
+        {
+            "file": "CutScene1_011.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.3303437500000002
+        },
+        {
+            "file": "CutScene1_012.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.6340937500000001
+        },
+        {
+            "file": "CutScene1_015.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.431
+        },
+        {
+            "file": "Cutscene1_017.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.87471875
+        },
+        {
+            "file": "CutScene1_017a.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.3303437500000002
+        },
+        {
+            "file": "CutScene6B_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.4990937500000001
+        },
+        {
+            "file": "CutScene_11_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "Cutscene_11_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.447
+        },
+        {
+            "file": "Cutscene_11_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.632
+        },
+        {
+            "file": "CutScene_11_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CutScene_11_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.03034375
+        },
+        {
+            "file": "CutScene_11_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.477
+        },
+        {
+            "file": "CutScene_2A_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.201
+        },
+        {
+            "file": "CutScene_2_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.86596875
+        },
+        {
+            "file": "CutScene_2_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.278
+        },
+        {
+            "file": "CutScene_2_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.247
+        },
+        {
+            "file": "CutScene_3_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CutScene_3_005.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CutScene_3_005.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.601
+        },
+        {
+            "file": "CutScene_3_005.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 17.775
+        },
+        {
+            "file": "CutScene_3_005.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 6.556
+        },
+        {
+            "file": "CutScene_3_006.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.755
+        },
+        {
+            "file": "CutScene_3_007.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 2.816
+        },
+        {
+            "file": "CutScene_4B_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.125
+        },
+        {
+            "file": "CutScene_4B_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.879
+        },
+        {
+            "file": "CutScene_4C_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.478
+        },
+        {
+            "file": "CutScene_4C_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.955
+        },
+        {
+            "file": "CutScene_4D_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.5115937500000003
+        },
+        {
+            "file": "CutScene_4D_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.463
+        },
+        {
+            "file": "CutScene_4D_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 8.91
+        },
+        {
+            "file": "CutScene_4D_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.632
+        },
+        {
+            "file": "CutScene_4D_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.571
+        },
+        {
+            "file": "CutScene_4D_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.693
+        },
+        {
+            "file": "CutScene_4_003.wav",
+            "segment_index": 0,
+            "segment_start": 2.71409375,
+            "segment_end": 4.68846875
+        },
+        {
+            "file": "CutScene_5A_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CutScene_5B_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 8.864
+        },
+        {
+            "file": "CutScene_5C_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 7.472843750000001
+        },
+        {
+            "file": "CutScene_5D_001.wav",
+            "segment_index": 0,
+            "segment_start": 1.4990937500000001,
+            "segment_end": 3.33846875
+        },
+        {
+            "file": "CutScene_5D_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.94
+        },
+        {
+            "file": "CutScene_5E_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "CutScene_5E_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.416
+        },
+        {
+            "file": "CutScene_5F_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "CutScene_5F_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.37
+        },
+        {
+            "file": "CutScene_5G_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.524
+        },
+        {
+            "file": "CutScene_5G_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.509
+        },
+        {
+            "file": "CutScene_5G_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.37
+        },
+        {
+            "file": "CutScene_5H_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.37221875
+        },
+        {
+            "file": "CutScene_5H_002.wav",
+            "segment_index": 0,
+            "segment_start": 3.52409375,
+            "segment_end": 5.863
+        },
+        {
+            "file": "CutScene_5H_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.97
+        },
+        {
+            "file": "CutScene_5I_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.571
+        },
+        {
+            "file": "CutScene_5I_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "CutScene_5I_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.52846875
+        },
+        {
+            "file": "CutScene_5_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.42721875
+        },
+        {
+            "file": "CutScene_6A_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 6.002
+        },
+        {
+            "file": "CutScene_6A_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.032
+        },
+        {
+            "file": "CutScene_6A_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.294
+        },
+        {
+            "file": "CutScene_6A_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.7565937500000001
+        },
+        {
+            "file": "CutScene_6A_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.6
+        },
+        {
+            "file": "CutScene_6C_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.785
+        },
+        {
+            "file": "CutScene_6C_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.13221875,
+            "segment_end": 0.65534375
+        },
+        {
+            "file": "CutScene_6C_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.831
+        },
+        {
+            "file": "CutScene_6C_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.831
+        },
+        {
+            "file": "CutScene_6C_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.63846875
+        },
+        {
+            "file": "CutScene_6C_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.6
+        },
+        {
+            "file": "CutScene_6C_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.2034687500000003
+        },
+        {
+            "file": "CutScene_6C_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.355
+        },
+        {
+            "file": "CutScene_7A_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "CutScene_7A_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.355
+        },
+        {
+            "file": "CutScene_7A_008.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.632
+        },
+        {
+            "file": "CutScene_7A_010.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 14.728
+        },
+        {
+            "file": "CutScene_9C_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.571
+        },
+        {
+            "file": "CutScene_9D_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.585
+        },
+        {
+            "file": "CutScene_9D_002.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.031
+        },
+        {
+            "file": "CutScene_9D_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.555
+        },
+        {
+            "file": "CutScene_9_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.524
+        },
+        {
+            "file": "DecCastle_010.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.817
+        },
+        {
+            "file": "DecCastle_014.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 4.663
+        },
+        {
+            "file": "DecCastle_015.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.678
+        },
+        {
+            "file": "DecCastle_016.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "DecCastle_017.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.909
+        },
+        {
+            "file": "DecCastle_019.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.57
+        },
+        {
+            "file": "DecCastle_020.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.70159375
+        },
+        {
+            "file": "DecCastle_021.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.51
+        },
+        {
+            "file": "DodgingGriffin_004.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 15.512
+        },
+        {
+            "file": "DodgingGriffin_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.263
+        }
+    ],
+    "Speaker 2": [
+        {
+            "file": "CutScene_3A_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 5.309
+        },
+        {
+            "file": "CutScene_3A_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.894
+        },
+        {
+            "file": "CutScene_3A_001.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.91221875
+        },
+        {
+            "file": "CutScene_3_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 1.4653437500000002
+        },
+        {
+            "file": "CutScene_3_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.8872187500000002
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 2.447
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.57909375
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.79034375,
+            "segment_end": 2.83221875
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 3,
+            "segment_start": 0.11534375000000001,
+            "segment_end": 2.401
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 5.00909375
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 5,
+            "segment_start": 5.75159375,
+            "segment_end": 10.388
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 1.38096875
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 6.648
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 3.72659375
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 4.663
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 7.849
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 5.171
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 4.109
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 2.308
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 3.555
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 17,
+            "segment_start": 0.03096875,
+            "segment_end": 2.078
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 18,
+            "segment_start": 0.03096875,
+            "segment_end": 2.585
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 19,
+            "segment_start": 0.03096875,
+            "segment_end": 4.247
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 20,
+            "segment_start": 0.03096875,
+            "segment_end": 3.37
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 21,
+            "segment_start": 0.03096875,
+            "segment_end": 6.463
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 22,
+            "segment_start": 0.03096875,
+            "segment_end": 4.617
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 23,
+            "segment_start": 0.03096875,
+            "segment_end": 7.664
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 24,
+            "segment_start": 0.03096875,
+            "segment_end": 8.264
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 25,
+            "segment_start": 0.03096875,
+            "segment_end": 7.341
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 26,
+            "segment_start": 0.03096875,
+            "segment_end": 3.786
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 27,
+            "segment_start": 0.03096875,
+            "segment_end": 6.74
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 28,
+            "segment_start": 0.03096875,
+            "segment_end": 6.094
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 29,
+            "segment_start": 0.03096875,
+            "segment_end": 4.571
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 30,
+            "segment_start": 0.03096875,
+            "segment_end": 4.432
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 31,
+            "segment_start": 0.03096875,
+            "segment_end": 3.832
+        },
+        {
+            "file": "CutScene_3_003.wav",
+            "segment_index": 32,
+            "segment_start": 0.03096875,
+            "segment_end": 3.324
+        },
+        {
+            "file": "CutScene_3_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 6.002
+        },
+        {
+            "file": "CutScene_3_005.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 2.61284375
+        },
+        {
+            "file": "CutScene_3_007.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.786
+        },
+        {
+            "file": "CutScene_3_007.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 3.555
+        },
+        {
+            "file": "CutScene_3_007.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 3.324
+        },
+        {
+            "file": "CutScene_3_007.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 4.709
+        },
+        {
+            "file": "CutScene_3_007.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 4.617
+        },
+        {
+            "file": "CutScene_3_007.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 2.69721875
+        }
+    ],
+    "Speaker 4": [
+        {
+            "file": "CutScene_9C_001.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 9.649
+        },
+        {
+            "file": "CutScene_9C_001.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 4.063
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 3.186
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 1.22909375
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 2,
+            "segment_start": 0.03096875,
+            "segment_end": 0.97
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 3,
+            "segment_start": 0.03096875,
+            "segment_end": 3.139
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 4,
+            "segment_start": 0.03096875,
+            "segment_end": 2.447
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 5,
+            "segment_start": 0.03096875,
+            "segment_end": 3.047
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 6,
+            "segment_start": 0.03096875,
+            "segment_end": 0.9422187500000001
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 7,
+            "segment_start": 0.03096875,
+            "segment_end": 3.06846875
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 8,
+            "segment_start": 0.03096875,
+            "segment_end": 6.51
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 9,
+            "segment_start": 0.03096875,
+            "segment_end": 3.74
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 10,
+            "segment_start": 0.03096875,
+            "segment_end": 4.663
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 11,
+            "segment_start": 0.03096875,
+            "segment_end": 1.108
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 12,
+            "segment_start": 0.03096875,
+            "segment_end": 1.108
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 13,
+            "segment_start": 0.03096875,
+            "segment_end": 0.739
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 14,
+            "segment_start": 0.03096875,
+            "segment_end": 1.477
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 15,
+            "segment_start": 0.03096875,
+            "segment_end": 1.0603437500000001
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 16,
+            "segment_start": 0.03096875,
+            "segment_end": 0.97
+        },
+        {
+            "file": "CutScene_9C_003.wav",
+            "segment_index": 17,
+            "segment_start": 0.03096875,
+            "segment_end": 1.12784375
+        },
+        {
+            "file": "CutScene_9C_005.wav",
+            "segment_index": 0,
+            "segment_start": 0.03096875,
+            "segment_end": 0.6722187500000001
+        },
+        {
+            "file": "CutScene_9C_005.wav",
+            "segment_index": 1,
+            "segment_start": 0.03096875,
+            "segment_end": 0.831
+        }
+    ]
+}
