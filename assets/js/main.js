@@ -5,7 +5,7 @@ var idx;
 var documents = {};
 
 // Fetch the index data
-$.getJSON("/assets/audio/index.json", function (data) {
+$.getJSON(baseUrl + "/assets/audio/index.json", function (data) {
   // Store the documents in a dictionary for quick lookup
   data.forEach(function (doc) {
     documents[doc.id] = doc;

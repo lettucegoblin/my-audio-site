@@ -21,7 +21,7 @@
 title: My Audio Site
 email: your-email@example.com
 description: A site to search and play audio files.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/my-audio-site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
