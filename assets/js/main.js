@@ -4,47 +4,56 @@
 var idx;
 var documents = {};
 
-// Fetch the index data
-$.getJSON(baseUrl + "/assets/audio/index.json", function (data) {
-  // Store the documents in a dictionary for quick lookup
-  data.forEach(function (doc) {
-    documents[doc.id] = doc;
-  });
-
-  // Initialize Lunr index
-  idx = lunr(function () {
-    this.ref("id"); // The reference field
-    this.field("text"); // Field to index
-
-    // Add data to the index
+$(document).ready(function () {
+  // Load the data and create the index
+  $.getJSON(baseUrl + "/assets/audio/index.json", function (data) {
+    // Store the documents in a dictionary for quick lookup
     data.forEach(function (doc) {
-      this.add(doc);
-    }, this);
+      documents[doc.id] = doc;
+    });
+
+    // Initialize Lunr index
+    idx = lunr(function () {
+      this.ref("id"); // The reference field
+      this.field("text"); // Field to index
+      // Add data to the index
+      for (var i = 0; i < data.length; i++) {
+        this.add(data[i]);
+      }
+    });
+
+    // Check if a search parameter is present in the URL
+    var queryParams = new URLSearchParams(window.location.search);
+    var searchQuery = queryParams.get("q");
+    if (searchQuery) {
+      $("#search-input").val(searchQuery);
+      search(searchQuery);
+    }
   });
 
-  // Display favorites on page load
-  displayFavorites();
+  // Bind the search button click event
+  $("#search-button").on("click", function () {
+    var query = $("#search-input").val();
+    search(query);
+  });
+
+  // Bind the search input keyup event to update URL and search dynamically
+  $("#search-input").on("keyup", function () {
+    var query = $(this).val();
+    updateUrl(query);
+    search(query);
+  });
 });
 
-let timeout = 0;
-// Search functionality triggered by button click, pressing Enter, or typing in the search box
-function search() {
-  if (timeout) {
-    clearTimeout(timeout);
-  }
-  timeout = setTimeout(function () {
-    var query = $("#search-input").val(); // Get the value from the input
-    var results = idx.search(query); // Use Lunr to search the index
-    displayResults(results, "#results"); // Function to display the results
-  }, 300);
+function search(query) {
+  if (!query) return;
+  var results = idx.search(query); // Use Lunr to search the index
+  displayResults(results, "#results"); // Function to display the results
 }
 
-$("#search-button").on("click", search);
-$("#search-input").on("keyup", function (event) {
-  if (event.key === "Enter" || event.keyCode === 13 || this.value.length > 0) {
-    search();
-  }
-});
+function updateUrl(query) {
+  history.pushState(null, "", "?q=" + encodeURIComponent(query));
+}
 
 // Function to download an audio file
 function download(url) {
@@ -69,7 +78,7 @@ function displayResults(results, target) {
   <div class="d-flex justify-content-between align-items-center">
     <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${doc.audio}"></audio>
     <button class="btn btn-outline-primary ml-4" onclick="toggleFavorite('${doc.id}')"><i class="far fa-heart"></i></button>
-    <button class="btn btn-outline-primary ml-4" onclick="download('${doc.audio}')"><i class="fas fa-download"></i></button>
+    <button class="btn btn-outline-primary ml-4" onclick="download('${baseUrl}${doc.audio}')"><i class="fas fa-download"></i></button>
   </div>
 </li>`;
     $results.append(item);
