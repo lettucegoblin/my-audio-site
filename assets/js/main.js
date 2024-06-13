@@ -50,6 +50,7 @@ $(document).ready(function () {
     //if (searchQuery) {
     $("#search-input").val(searchQuery);
     search(searchQuery);
+    displayFavorites(); // Display favorites on page load
     //}
   });
 
@@ -145,26 +146,47 @@ function loadMore() {
 }
 
 // Function to handle favoriting of audio files
-function toggleFavorite(audio) {
+function toggleFavorite(audioId) {
   var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-  var index = favorites.indexOf(audio);
+  var index = favorites.indexOf(audioId);
   if (index === -1) {
-    favorites.push(audio);
+      favorites.push(audioId);
   } else {
-    favorites.splice(index, 1);
+      favorites.splice(index, 1);
   }
   localStorage.setItem("favorites", JSON.stringify(favorites));
-  displayFavorites();
+  displayFavorites(); // Update the favorites display
 }
 
 // Function to display favorites
 function displayFavorites() {
   var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-  var results = favorites.map(function (audio) {
-    return { ref: audio };
+  var favoriteResults = favorites.map(function(id) {
+      return documents[id] ? { ref: id } : undefined;
+  }).filter(function(result) { return result !== undefined; });
+
+  // Clear previous favorites results
+  var $favorites = $("#favorites");
+  $favorites.empty();
+
+  // Display each favorite by creating elements similar to search results
+  favoriteResults.forEach(function(result) {
+      var doc = documents[result.ref];
+      if (doc) {
+          var item = `<li class="list-group-item">
+              <p>${doc.text}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                  <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${doc.audio}"></audio>
+                  <button class="btn btn-outline-primary ml-4" onclick="toggleFavorite('${doc.id}')">
+                      <i class="fas fa-heart-broken"></i> Unfavorite
+                  </button>
+              </div>
+          </li>`;
+          $favorites.append(item);
+      }
   });
-  displayResults(results, "#favorites");
 }
+
 
 // Volume control functionality
 $("#volume-control").on("input", function () {

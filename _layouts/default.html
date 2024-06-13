@@ -16,16 +16,24 @@
 <body>
   <header class="bg-primary text-white fixed-top">
     <div class="container">
-      <h1>{{ site.title }}</h1>
-      <div class="input-group mb-3">
-        <input type="text" id="search-input" class="form-control" placeholder="Search by keyword">
-        <div class="input-group-append">
-          <button class="btn btn-light" id="search-button" type="button">Search</button>
+      <div class="row mb-2">
+        <div class="col-12 col-md-8">
+          <div class="input-group flex-row align-items-center mt-3">
+            <input type="text" id="search-input" class="form-control form-control-lg mb-0" placeholder="Search by keyword">
+            <div class="input-group-append">
+              <button class="btn btn-light btn-lg" id="search-button" type="button">Search</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="volume-slider">
-        <label for="volume-control" class="text-white">Volume: </label>
-        <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+      <div class="row volume-slider justify-content-center mb-1">
+        <label for="volume-control" class="text-white
+        align-self-center mr-2
+        
+        ">Volume: </label>
+        <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1"
+          class="form-label"
+        >
       </div>
     </div>
   </header>

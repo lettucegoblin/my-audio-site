@@ -14,9 +14,6 @@ body {
     margin-bottom: 15px; /* Add space between list items */
   }
   
-  .volume-slider {
-    margin-top: 10px; /* Add some spacing for the volume slider */
-  }
   
   @media (max-width: 768px) {
     .input-group {
