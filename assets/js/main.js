@@ -118,16 +118,20 @@ function download(url) {
   document.body.removeChild(a);
 }
 
+function replacePoundWithEncodedPound(url) {
+  return url.replace("#", "%23");
+}
+
 function createAudioListElement(doc, isFavorite = false) {
   return `<li class="list-group-item">
   <p class="text-center">${doc.text}</p>
   <div class="d-flex justify-content-between align-items-center ${isFavorite? "flex-column" : ""}">
-    <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${encodeURIComponent(doc.audio)}"></audio>
+    <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${replacePoundWithEncodedPound(doc.audio)}"></audio>
 
     <div class="d-flex align-items-center">
       <button class="btn btn-outline-primary ml-2" onclick="toggleFavorite('${doc.id}')"><i class="${isFavorite? "fas fa-heart-broken" : "far fa-heart"}"></i></button>
-      <button class="btn btn-outline-primary ml-2" onclick="download('${baseUrl}${encodeURIComponent(doc.audio)}')"><i class="fas fa-download"></i></button>
-      <button class="btn btn-outline-primary ml-2" onclick="navigator.clipboard.writeText('${baseUrl}${encodeURIComponent(doc.audio)}')"><i class="fas fa-copy"></i></button>
+      <button class="btn btn-outline-primary ml-2" onclick="download('${baseUrl}${replacePoundWithEncodedPound(doc.audio)}')"><i class="fas fa-download"></i></button>
+      <button class="btn btn-outline-primary ml-2" onclick="navigator.clipboard.writeText('${baseUrl}${replacePoundWithEncodedPound(doc.audio)}')"><i class="fas fa-copy"></i></button>
     </div>
   </div>
 </li>`;
