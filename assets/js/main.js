@@ -73,7 +73,7 @@ function search(query) {
   var results = idx.search(query); // Use Lunr to search the index
   currentResults = results; // Store results in a global variable
   pageIndex = 0; // Reset page index
-  displayResults(results, "#results"); // Function to display the results
+  displayResults(); // Function to display the results
 }
 
 function updateUrl(query) {
@@ -91,9 +91,10 @@ function download(url) {
 }
 
 // Function to display search results
-function displayResults() {
+function displayResults(loadMore = false) {
   var $results = $("#results");
-  //$results.empty(); // Clear previous results
+  if (!loadMore) $results.empty(); // Clear previous results
+  
 
   // Calculate the slice of results to display
   var start = pageIndex * pageSize;
@@ -142,7 +143,7 @@ function displayResults() {
 
 function loadMore() {
   pageIndex++;
-  displayResults();
+  displayResults(true);
 }
 
 // Function to handle favoriting of audio files
