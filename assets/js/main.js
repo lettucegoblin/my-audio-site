@@ -118,6 +118,21 @@ function download(url) {
   document.body.removeChild(a);
 }
 
+function createAudioListElement(doc, isFavorite = false) {
+  return `<li class="list-group-item">
+  <p class="text-center">${doc.text}</p>
+  <div class="d-flex justify-content-between align-items-center ${isFavorite? "flex-column" : ""}">
+    <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${encodeURIComponent(doc.audio)}"></audio>
+
+    <div class="d-flex align-items-center">
+      <button class="btn btn-outline-primary ml-2" onclick="toggleFavorite('${doc.id}')"><i class="${isFavorite? "fas fa-heart-broken" : "far fa-heart"}"></i></button>
+      <button class="btn btn-outline-primary ml-2" onclick="download('${baseUrl}${encodeURIComponent(doc.audio)}')"><i class="fas fa-download"></i></button>
+      <button class="btn btn-outline-primary ml-2" onclick="navigator.clipboard.writeText('${baseUrl}${encodeURIComponent(doc.audio)}')"><i class="fas fa-copy"></i></button>
+    </div>
+  </div>
+</li>`;
+}
+
 // Function to display search results
 function displayResults(loadMore = false) {
   var $results = $("#results");
@@ -130,15 +145,7 @@ function displayResults(loadMore = false) {
 
   slicedResults.forEach(function (result) {
     var doc = documents[result.ref]; // Look up the document in the stored data
-    var item = `
-<li class="list-group-item">
-  <p>${doc.text}</p>
-  <div class="d-flex justify-content-between align-items-center">
-    <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${doc.audio}"></audio>
-    <button class="btn btn-outline-primary ml-4" onclick="toggleFavorite('${doc.id}')"><i class="far fa-heart"></i></button>
-    <button class="btn btn-outline-primary ml-4" onclick="download('${baseUrl}${doc.audio}')"><i class="fas fa-download"></i></button>
-  </div>
-</li>`;
+    var item = createAudioListElement(doc)
     $results.append(item);
   });
 
@@ -205,15 +212,7 @@ function displayFavorites() {
   favoriteResults.forEach(function (result) {
     var doc = documents[result.ref];
     if (doc) {
-      var item = `<li class="list-group-item">
-              <p>${doc.text}</p>
-              <div class="d-flex justify-content-between align-items-center">
-                  <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${doc.audio}"></audio>
-                  <button class="btn btn-outline-primary ml-4" onclick="toggleFavorite('${doc.id}')">
-                      <i class="fas fa-heart-broken"></i>
-                  </button>
-              </div>
-          </li>`;
+      var item = createAudioListElement(doc, true);
       $favorites.append(item);
     }
   });
