@@ -3,6 +3,10 @@
 // Initialize a global variable for the index and data
 var idx;
 var documents = {};
+// Constants and state variables
+var pageSize = 5; // Number of results to show per page
+var pageIndex = 0; // Current page index
+var currentResults = []; // Store current search results
 
 function nGramTokenizer(obj, metadata) {
   var str = obj.toString().toLowerCase();
@@ -28,8 +32,6 @@ $(document).ready(function () {
       documents[doc.id] = doc;
     });
 
-    
-
     // Initialize Lunr index
     idx = lunr(function () {
       this.tokenizer = nGramTokenizer;
@@ -46,8 +48,8 @@ $(document).ready(function () {
     var queryParams = new URLSearchParams(window.location.search);
     var searchQuery = queryParams.get("q") || "";
     //if (searchQuery) {
-      $("#search-input").val(searchQuery);
-      search(searchQuery);
+    $("#search-input").val(searchQuery);
+    search(searchQuery);
     //}
   });
 
@@ -68,6 +70,8 @@ $(document).ready(function () {
 function search(query) {
   //if (!query) return;
   var results = idx.search(query); // Use Lunr to search the index
+  currentResults = results; // Store results in a global variable
+  pageIndex = 0; // Reset page index
   displayResults(results, "#results"); // Function to display the results
 }
 
@@ -86,11 +90,16 @@ function download(url) {
 }
 
 // Function to display search results
-function displayResults(results, target) {
-  var $results = $(target);
-  $results.empty(); // Clear previous results
+function displayResults() {
+  var $results = $("#results");
+  //$results.empty(); // Clear previous results
 
-  results.forEach(function (result) {
+  // Calculate the slice of results to display
+  var start = pageIndex * pageSize;
+  var end = start + pageSize;
+  var slicedResults = currentResults.slice(start, end);
+
+  slicedResults.forEach(function (result) {
     var doc = documents[result.ref]; // Look up the document in the stored data
     var item = `
 <li class="list-group-item">
@@ -104,9 +113,35 @@ function displayResults(results, target) {
     $results.append(item);
   });
 
+  // check if the Load More button already exists
+  let $loadMore = $("#load-more");
+  if ($loadMore.length == 0) {
+    $results.after(
+      '<button id="load-more" class="btn btn-primary w-100">Load More</button>'
+    );
+    // Bind click event to the Load More button dynamically
+
+    $(document).on("click", "#load-more", loadMore);
+    
+    $loadMore = $("#load-more");
+    observer.observe($loadMore[0]);  // Start observing the Load More button
+  }
+
+  // Check if there are more results to load
+  if (end < currentResults.length) {
+    $loadMore.show(); // Show the Load More button
+  } else {
+    $loadMore.hide(); // Hide the Load More button
+  }
+
   // Apply volume setting to all audio elements and bind their volume change event
   applyVolume();
   bindAudioElements();
+}
+
+function loadMore() {
+  pageIndex++;
+  displayResults();
 }
 
 // Function to handle favoriting of audio files
@@ -157,3 +192,31 @@ function bindAudioElements() {
 // Call applyVolume and bindAudioElements on page load to set initial volume and bind events
 applyVolume();
 bindAudioElements();
+var observer;
+
+function setupIntersectionObserver() {
+    var options = {
+        root: null,  // observing changes to intersections relative to the viewport
+        rootMargin: '0px',
+        threshold: 1.0  // trigger when 100% of the observed target is visible
+    };
+
+    observer = new IntersectionObserver(handleIntersect, options);
+}
+
+let observerTimeout;
+function handleIntersect(entries, observer) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if (observerTimeout) {
+            clearTimeout(observerTimeout);
+          }
+          observerTimeout = setTimeout(() => {
+            loadMore();
+          }, 500);
+        }
+    });
+}
+
+// Call this function on page ready or after search initialization
+setupIntersectionObserver();
