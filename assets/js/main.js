@@ -8,23 +8,47 @@ var pageSize = 5; // Number of results to show per page
 var pageIndex = 0; // Current page index
 var currentResults = []; // Store current search results
 
-function nGramTokenizer(obj, metadata) {
+function customTokenizer(obj, metadata) {
   var str = obj.toString().toLowerCase();
-  var nGrams = [];
-  var length = str.length;
-  var n = 3; // You can adjust 'n' based on how small you want the fragments to be
+  var words = str.split(/\s+/); // Split on whitespace
+  var tokens = [];
 
-  for (var i = 0; i <= length - n; i++) {
-    var gram = str.substring(i, i + n);
-    nGrams.push(gram);
-  }
+  words.forEach(function(word) {
+      // Push the whole word to preserve exact matches
+      tokens.push(word);
 
-  return nGrams.map(function (gram) {
-    return new lunr.Token(gram, lunr.utils.clone(metadata));
+      // Generate n-grams for the word
+      if (word.length > 1) { // Only generate n-grams for words longer than 1 character
+          for (var n = 1; n <= word.length; n++) {
+              for (var i = 0; i <= word.length - n; i++) {
+                  var gram = word.substring(i, i + n);
+                  tokens.push(gram);
+              }
+          }
+      }
+  });
+
+  return tokens.map(function(token) {
+      return new lunr.Token(token, lunr.utils.clone(metadata));
   });
 }
 
+
 $(document).ready(function () {
+  const logo1 = document.getElementById('logo1');
+  const logo2 = document.getElementById('logo2');
+
+  // When the mouse hovers over the logo
+  logo1.addEventListener('mouseenter', function() {
+    logo1.style.display = 'none';
+    logo2.style.display = 'block';
+  });
+
+  // When the mouse leaves the logo
+  logo2.addEventListener('mouseleave', function() {
+    logo2.style.display = 'none';
+    logo1.style.display = 'block';
+  });
   // Load the data and create the index
   $.getJSON(baseUrl + "/assets/audio/index.json", function (data) {
     // Store the documents in a dictionary for quick lookup
@@ -34,8 +58,10 @@ $(document).ready(function () {
 
     // Initialize Lunr index
     idx = lunr(function () {
-      this.tokenizer = nGramTokenizer;
+      this.tokenizer = customTokenizer;
       this.pipeline.remove(lunr.stopWordFilter);
+      this.pipeline.remove(lunr.stemmer); // Remove stemmer if it interferes with the tokens
+
       this.ref("id"); // The reference field
       this.field("text"); // Field to index
       // Add data to the index
@@ -94,7 +120,6 @@ function download(url) {
 function displayResults(loadMore = false) {
   var $results = $("#results");
   if (!loadMore) $results.empty(); // Clear previous results
-  
 
   // Calculate the slice of results to display
   var start = pageIndex * pageSize;
@@ -124,9 +149,9 @@ function displayResults(loadMore = false) {
     // Bind click event to the Load More button dynamically
 
     $(document).on("click", "#load-more", loadMore);
-    
+
     $loadMore = $("#load-more");
-    observer.observe($loadMore[0]);  // Start observing the Load More button
+    observer.observe($loadMore[0]); // Start observing the Load More button
   }
 
   // Check if there are more results to load
@@ -151,9 +176,9 @@ function toggleFavorite(audioId) {
   var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
   var index = favorites.indexOf(audioId);
   if (index === -1) {
-      favorites.push(audioId);
+    favorites.push(audioId);
   } else {
-      favorites.splice(index, 1);
+    favorites.splice(index, 1);
   }
   localStorage.setItem("favorites", JSON.stringify(favorites));
   displayFavorites(); // Update the favorites display
@@ -162,19 +187,23 @@ function toggleFavorite(audioId) {
 // Function to display favorites
 function displayFavorites() {
   var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-  var favoriteResults = favorites.map(function(id) {
+  var favoriteResults = favorites
+    .map(function (id) {
       return documents[id] ? { ref: id } : undefined;
-  }).filter(function(result) { return result !== undefined; });
+    })
+    .filter(function (result) {
+      return result !== undefined;
+    });
 
   // Clear previous favorites results
   var $favorites = $("#favorites");
   $favorites.empty();
 
   // Display each favorite by creating elements similar to search results
-  favoriteResults.forEach(function(result) {
-      var doc = documents[result.ref];
-      if (doc) {
-          var item = `<li class="list-group-item">
+  favoriteResults.forEach(function (result) {
+    var doc = documents[result.ref];
+    if (doc) {
+      var item = `<li class="list-group-item">
               <p>${doc.text}</p>
               <div class="d-flex justify-content-between align-items-center">
                   <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${doc.audio}"></audio>
@@ -183,11 +212,10 @@ function displayFavorites() {
                   </button>
               </div>
           </li>`;
-          $favorites.append(item);
-      }
+      $favorites.append(item);
+    }
   });
 }
-
 
 // Volume control functionality
 $("#volume-control").on("input", function () {
@@ -218,27 +246,27 @@ bindAudioElements();
 var observer;
 
 function setupIntersectionObserver() {
-    var options = {
-        root: null,  // observing changes to intersections relative to the viewport
-        rootMargin: '0px',
-        threshold: 1.0  // trigger when 100% of the observed target is visible
-    };
+  var options = {
+    root: null, // observing changes to intersections relative to the viewport
+    rootMargin: "0px",
+    threshold: 1.0, // trigger when 100% of the observed target is visible
+  };
 
-    observer = new IntersectionObserver(handleIntersect, options);
+  observer = new IntersectionObserver(handleIntersect, options);
 }
 
 let observerTimeout;
 function handleIntersect(entries, observer) {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          if (observerTimeout) {
-            clearTimeout(observerTimeout);
-          }
-          observerTimeout = setTimeout(() => {
-            loadMore();
-          }, 500);
-        }
-    });
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      if (observerTimeout) {
+        clearTimeout(observerTimeout);
+      }
+      observerTimeout = setTimeout(() => {
+        loadMore();
+      }, 500);
+    }
+  });
 }
 
 // Call this function on page ready or after search initialization

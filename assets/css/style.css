@@ -1,27 +1,50 @@
 body {
-    padding-top: 100px; /* Ensure content does not overlap with fixed header */
+  padding-top: 100px; /* Ensure content does not overlap with fixed header */
+}
+
+.fixed-top {
+  z-index: 1030; /* Ensure the header is always on top */
+}
+
+audio {
+  width: 100%; /* Ensure audio controls take full width */
+}
+
+.list-group-item {
+  margin-bottom: 15px; /* Add space between list items */
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
   }
-  
-  .fixed-top {
-    z-index: 1030; /* Ensure the header is always on top */
+
+  .input-group .form-control {
+    margin-bottom: 10px;
   }
-  
-  audio {
-    width: 100%; /* Ensure audio controls take full width */
-  }
-  
-  .list-group-item {
-    margin-bottom: 15px; /* Add space between list items */
-  }
-  
-  
-  @media (max-width: 768px) {
-    .input-group {
-      flex-direction: column;
-    }
-  
-    .input-group .form-control {
-      margin-bottom: 10px;
-    }
-  }
-  
+}
+
+#load-more {
+  opacity: 0;
+}
+
+.logo {
+  height: 64px; /* Set a fixed height for the logo */
+  width: auto; /* Maintain aspect ratio */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for visibility */
+}
+
+/* Initially, logo2 is hidden */
+#logo2 {
+  display: none;
+}
+
+.navbar {
+    flex-wrap: nowrap; /* Prevent navbar items from wrapping */
+    padding-bottom: 0; /* Remove bottom padding */
+}
+
+.navbar-brand{
+    margin-top: 0;
+    margin-bottom: 0;
+}
