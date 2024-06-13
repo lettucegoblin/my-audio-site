@@ -8,6 +8,8 @@ var pageSize = 5; // Number of results to show per page
 var pageIndex = 0; // Current page index
 var currentResults = []; // Store current search results
 
+const defaultVolume = 0.15;
+
 function customTokenizer(obj, metadata) {
   var str = obj.toString().toLowerCase();
   var words = str.split(/\s+/); // Split on whitespace
@@ -208,13 +210,14 @@ function displayFavorites() {
               <div class="d-flex justify-content-between align-items-center">
                   <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${doc.audio}"></audio>
                   <button class="btn btn-outline-primary ml-4" onclick="toggleFavorite('${doc.id}')">
-                      <i class="fas fa-heart-broken"></i> Unfavorite
+                      <i class="fas fa-heart-broken"></i>
                   </button>
               </div>
           </li>`;
       $favorites.append(item);
     }
   });
+  applyVolume();
 }
 
 // Volume control functionality
@@ -225,7 +228,7 @@ $("#volume-control").on("input", function () {
 });
 
 function applyVolume() {
-  var volume = localStorage.getItem("volume") || 0.15;
+  var volume = localStorage.getItem("volume") || defaultVolume;
   $("#volume-control").val(volume);
   $("audio").each(function () {
     $(this).prop("volume", volume);
@@ -241,8 +244,9 @@ function bindAudioElements() {
 }
 
 // Call applyVolume and bindAudioElements on page load to set initial volume and bind events
-applyVolume();
+
 bindAudioElements();
+applyVolume();
 var observer;
 
 function setupIntersectionObserver() {
