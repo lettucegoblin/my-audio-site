@@ -123,18 +123,24 @@ function replacePoundWithEncodedPound(url) {
 }
 
 function createAudioListElement(doc, isFavorite = false) {
+  let isFavorited = isAFavorite(doc.id);
   return `<li class="list-group-item">
   <p class="text-center">${doc.text}</p>
   <div class="d-flex justify-content-between align-items-center ${isFavorite? "flex-column" : ""}">
     <audio preload="none" controls class="w-100 mb-2" src="${baseUrl}${replacePoundWithEncodedPound(doc.audio)}"></audio>
 
     <div class="d-flex align-items-center">
-      <button class="btn btn-outline-primary ml-2" onclick="toggleFavorite('${doc.id}')"><i class="${isFavorite? "fas fa-heart-broken" : "far fa-heart"}"></i></button>
+      <button class="btn btn-outline-primary ml-2" onclick="toggleFavorite('${doc.id}', this)"><i class="${isFavorited? "fas fa-heart-broken" : "far fa-heart"}"></i></button>
       <button class="btn btn-outline-primary ml-2" onclick="download('${baseUrl}${replacePoundWithEncodedPound(doc.audio)}')"><i class="fas fa-download"></i></button>
       <button class="btn btn-outline-primary ml-2" onclick="navigator.clipboard.writeText('${baseUrl}${replacePoundWithEncodedPound(doc.audio)}')"><i class="fas fa-copy"></i></button>
     </div>
   </div>
 </li>`;
+}
+
+function isAFavorite(audioId) {
+  var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+  return favorites.indexOf(audioId) !== -1;
 }
 
 // Function to display search results
@@ -185,16 +191,22 @@ function loadMore() {
 }
 
 // Function to handle favoriting of audio files
-function toggleFavorite(audioId) {
+function toggleFavorite(audioId, element) {
   var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
   var index = favorites.indexOf(audioId);
+  var icon = element.querySelector("i");
   if (index === -1) {
     favorites.push(audioId);
+    icon.classList.remove("far", "fa-heart");
+    icon.classList.add("fas", "fa-heart-broken");
   } else {
     favorites.splice(index, 1);
+    icon.classList.remove("fas", "fa-heart-broken");
+    icon.classList.add("far", "fa-heart");
   }
   localStorage.setItem("favorites", JSON.stringify(favorites));
-  displayFavorites(); // Update the favorites display
+
+  displayFavorites(); // Update the favorites list
 }
 
 // Function to display favorites
@@ -220,6 +232,9 @@ function displayFavorites() {
       $favorites.append(item);
     }
   });
+  if (favoriteResults.length === 0) {
+    $favorites.append("<p class='text-center'>No favorites yet!</p>");
+  }
   applyVolume();
 }
 
@@ -246,10 +261,36 @@ function bindAudioElements() {
   });
 }
 
+function bindTabEvents() {
+  const searchTab = document.getElementById("search-tab");
+  const favoritesTab = document.getElementById("favorites-tab");
+  const searchBar = document.getElementById("search-bar");
+  const favoritesBar = document.getElementById("favorites-bar");
+
+  searchTab.addEventListener("click", function (e) {
+    e.preventDefault();
+    favoritesBar.classList.add("hidden");
+    searchBar.classList.remove("hidden");
+    
+    searchTab.classList.add("active");
+    favoritesTab.classList.remove("active");
+  }); 
+
+  favoritesTab.addEventListener("click", function (e) {
+    e.preventDefault();
+    searchBar.classList.add("hidden");
+    favoritesBar.classList.remove("hidden");
+    searchTab.classList.remove("active");
+    favoritesTab.classList.add("active");
+    
+  }); 
+}
+
 // Call applyVolume and bindAudioElements on page load to set initial volume and bind events
 
 bindAudioElements();
 applyVolume();
+bindTabEvents();
 var observer;
 
 function setupIntersectionObserver() {

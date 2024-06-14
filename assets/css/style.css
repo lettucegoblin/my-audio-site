@@ -10,8 +10,8 @@ audio {
   width: 100%; /* Ensure audio controls take full width */
 }
 
-.list-group-item {
-  margin-bottom: 15px; /* Add space between list items */
+header{
+  max-height: 118px;
 }
 
 @media (max-width: 768px) {
@@ -40,11 +40,47 @@ audio {
 }
 
 .navbar {
-    flex-wrap: nowrap; /* Prevent navbar items from wrapping */
-    padding-bottom: 0; /* Remove bottom padding */
+  flex-wrap: nowrap; /* Prevent navbar items from wrapping */
+  padding-bottom: 0; /* Remove bottom padding */
 }
 
-.navbar-brand{
-    margin-top: 0;
-    margin-bottom: 0;
+.navbar-brand {
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+  #favorites-bar.hidden {
+    display: none;
+  }
+
+  #search-bar.hidden {
+    display: none;
+  }
+
+  #search-bar h2, #favorites-bar h2 {
+    display: none;
+  }
+  #mobile-tabs {
+    position: sticky;
+    top: 118px;
+    z-index: 9;
+    background: white;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  #favorites-bar {
+    position: fixed;
+    right: 1em;
+    overflow-y: scroll;
+    max-height: 63vh;
+    box-shadow: 1px 2px 17px 0px #00000038;
+    padding: 0.5em;
+  }
+  
+}
+
+
+
